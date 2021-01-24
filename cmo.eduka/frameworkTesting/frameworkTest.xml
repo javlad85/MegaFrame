@@ -1,0 +1,21 @@
+<suite name="amazonTestInterface">
+    <test name="testngTest">
+        <classes>
+            <class name="setest.TestVlad1">
+                <methods>
+                    <include name="setup"/>
+                    <include name="login"/>
+                    <include name="closing"/>
+                </methods>
+            </class>
+
+            <class name="setest.TestVlad2">
+                <methods>
+                    <include name="setup2"/>
+                    <include name="login2"/>
+                    <include name="closing2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
